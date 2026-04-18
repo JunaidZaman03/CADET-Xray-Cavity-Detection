@@ -45,13 +45,6 @@ FITS Image → Preprocessing → CADET Inference → DBSCAN Post-processing
 CADET_Xray_Pipeline/
 ├── configs/
 │   └── config.example.yaml          # Example YAML configuration
-├── data/
-│   ├── raw/                         # Input FITS files
-│   └── processed/                   # Intermediate products
-├── notebooks/
-│   ├── CADET_original.ipynb         # Original reference notebook
-│   └── CADET_production.ipynb       # Cleaned production notebook
-├── outputs/                         # Pipeline results
 ├── scripts/
 │   └── run_pipeline.py              # Standalone runner script
 ├── src/
@@ -173,4 +166,4 @@ The original notebook computed a simple accuracy metric against an intensity-thr
 
 ## Attribution
 
-This repository is a software engineering refactor of the original CADET notebook workflow. All deep learning inference and cavity analysis functionality is provided by the external [`pycadet`](https://github.com/tomasplsek/CADET) package. Please cite the original CADET work if you use this pipeline in a scientific context.
+This repository is a software engineering refactor of the original CADET notebook workflow. All deep learning inference and cavity analysis functionality is provided by the external [`pycadet`](https://github.com/JunaidZaman03/CADET-Xray-Cavity-Detection) package. Please cite the original CADET work if you use this pipeline in a scientific context.
