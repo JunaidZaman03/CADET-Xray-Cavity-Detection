@@ -16,7 +16,7 @@
 
 ## Overview
 
-CADET is a refactored, production-oriented reimplementation of the original **CADET: An Automated Pipeline for X-ray Cavity Detection in Galactic and Cluster Environments Using DBSCAN Clustering** notebook. The codebase wraps the `pycadet` inference workflow into modular Python components with a CLI interface, YAML-driven configuration, structured outputs, and a test suite — suitable for reproducible scientific pipelines and further engineering.
+**CADET: An Automated Pipeline for X-ray Cavity Detection in Galactic and Cluster Environments Using DBSCAN Clustering** notebook. The codebase wraps the `pycadet` inference workflow into modular Python components with a CLI interface, YAML-driven configuration, structured outputs, and a test suite — suitable for reproducible scientific pipelines and further engineering.
 
 ---
 
@@ -150,7 +150,7 @@ See `configs/config.example.yaml` for all available parameters and inline docume
 
 ## Notes on Evaluation
 
-The original notebook computed a simple accuracy metric against an intensity-threshold-derived pseudo-ground-truth mask. This is **not** a scientifically validated evaluation protocol. In this repository, that logic is isolated in `evaluation.py` and explicitly documented as a baseline utility, not a benchmark. For real validation, expert-labeled cavity masks should be used.
+Computed a simple accuracy metric against an intensity-threshold-derived pseudo-ground-truth mask. This is **not** a scientifically validated evaluation protocol. In this repository, that logic is isolated in `evaluation.py` and explicitly documented as a baseline utility, not a benchmark. For real validation, expert-labeled cavity masks should be used.
 
 ---
 
@@ -166,4 +166,4 @@ The original notebook computed a simple accuracy metric against an intensity-thr
 
 ## Attribution
 
-This repository is a software engineering refactor of the original CADET notebook workflow. All deep learning inference and cavity analysis functionality is provided by the external [`pycadet`](https://github.com/JunaidZaman03/CADET-Xray-Cavity-Detection) package. Please cite the original CADET work if you use this pipeline in a scientific context.
+All deep learning inference and cavity analysis functionality is provided by the external [`pycadet`](https://github.com/JunaidZaman03/CADET-Xray-Cavity-Detection) package. Please cite the original CADET work if you use this pipeline in a scientific context.
