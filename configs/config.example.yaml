@@ -1,0 +1,10 @@
+input_path: data/raw/NGC4649.fits
+output_dir: outputs/ngc4649
+scale: 2
+ra: "12:43:40.0057"
+dec: "11:33:10.456"
+shift: true
+th1: 0.4
+th2: 0.6
+prediction_threshold: 0.5
+save_plots: true
